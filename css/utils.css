@@ -1,0 +1,15 @@
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.fxcol{
+    flex-direction: column;
+}
+.itemcenter{
+    align-items: center;
+    justify-content: space-evenly;
+}
+.itemleft{
+    align-items: flex-start;
+    justify-content: center;
+}
