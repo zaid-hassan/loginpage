@@ -5,11 +5,14 @@
 .fxcol{
     flex-direction: column;
 }
+.fxrow{
+    flex-direction: row;
+}
 .itemcenter{
     align-items: center;
     justify-content: space-evenly;
 }
 .itemleft{
-    align-items: flex-start;
+    align-items: center;
     justify-content: center;
 }

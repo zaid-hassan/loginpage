@@ -8,17 +8,33 @@
     <link rel="stylesheet" href="css/utils.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">    
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 <body  class="flex fxcol itemcenter">
-    <div class="container flex fxcol itemleft">
-        <span class="input">Username</span>
-        <input id="username" type="text" placeholder="username">
-        <span class="input">Password</span>
-        <input id="password" type="password" placeholder="password">
+    <div class="container flex fxcol itemcenter">
+        <h3>Login</h3>
+        <div class="inputbox flex fxrow itemcenter">
+            <ion-icon class="icon" name="person-outline"></ion-icon>
+            <input id="username" class="input" type="text" placeholder="username">
+        </div>
+        <div class="inputbox flex fxrow itemcenter">
+            <ion-icon class="icon" name="lock-closed-outline"></ion-icon>
+            <input id="password" class="input" type="password" placeholder="password">
+        </div>
+        <label class="faq">
+            <input id="checkbx" type="checkbox" name="rememberme" placeholder="remember me">
+            <span>Remember me</span>
+            <span id="fp"><a href="#">Forgot password</a></span>
+        </label>
         <button class="btn">log in</button>
+        <div class="faq">
+            <span>Do not have an account?</span>
+            <span><a href="#">Sign up</a></span>
+        </div>
     </div>
     <footer id="footer"><a href="https://unsplash.com/photos/cYdZot3JfVM?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink">Photo</a> by <a href="https://unsplash.com/@mojitaba?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Mojtaba Mohammadi</a> on <a href="https://unsplash.com/photos/cYdZot3JfVM?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></footer>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 </body>
 </html>
