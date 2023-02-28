@@ -1,6 +1,6 @@
 body{
     font-family: 'Josefin Sans', sans-serif;
-    background-image: url(/images/mojtaba-mohammadi-cYdZot3JfVM-unsplash.jpg);
+    background-image: url(/web_dev/projects/loginpage/images/mojtaba-mohammadi-cYdZot3JfVM-unsplash.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     backdrop-filter: blur(1px);
@@ -41,6 +41,7 @@ body{
 .faq{
     font-size: 14px;
     color: rgb(180, 180, 180);
+    width: auto;
 }
 .faq input{
     height: 12px;
@@ -50,7 +51,7 @@ body{
     margin: 0px 4px;
 }
 .faq #fp a{
-    margin-left: 12px;
+    margin-left: 30px;
 }
 .faq span a{
     color: rgb(180, 180, 180);
@@ -67,7 +68,7 @@ body{
     cursor: pointer;
 }
 .btn:hover{
-    background-color: rgba(201, 200, 206, 0.171);
+    background-color: rgba(201, 200, 206, 0.658);
     color: rgb(255, 255, 255);
 }
 #footer{
